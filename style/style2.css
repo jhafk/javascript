@@ -1,0 +1,84 @@
+header{
+    background-color: rgb(0, 204, 255);
+    text-align: center;
+    color: aqua(124, 27, 214);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    text-align: center;
+    
+}
+
+header{
+    background-color: rgb(115, 235, 225);
+    text-align: center;
+    color: aqua(124, 27, 214);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    text-align: center;
+}
+
+
+.logo{
+    display: flex;
+}
+
+h4{
+    color: rgb(148, 240, 130);
+    text-decoration:underline ;
+    text-transform:initial;
+    letter-spacing: 3px; /*sirve para separar las letras*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 2px -1px 2px red;
+}
+
+.logo img{
+    height: 50%;
+    width: 50px;
+}
+
+body{
+    height: 600px;
+    background-color:rgb(27, 238, 59);
+    background-image: url("https://fondosmil.com/fondo/17040.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed; /*scroll significa que la imagen es estatica*/
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: bisque;
+    font-size: 16px ;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 23px;
+}
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #0a0927;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #839;
+    
+}

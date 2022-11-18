@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Calculadora">
+	<meta name="keywords" content="Calculadora">
+	<meta name="author" content="JAIR ">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="./style/style3.css">
+	<script src="./js/java2.js"></script>
+<!--
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+<!-- -->
+</head>
+<body onload="alCargar()" onresize="alCargar()">
+	<div id="contenedor">
+
+		<header></header>
+
+        <ul class="menu">
+            <li><a href="index.html">Historia </a></li>
+            <li><a href="index2.html">Ejercicio 1</a></li>
+            <li><a href="index3.html">Ejercicio 2</a></li>
+            <li><a href="index4.html">Ejercicio 3</a></li>
+        </ul>
+    
+
+		<div id="display"></div>
+		<div id="dondetodosucede">
+			<div id="teclado">
+				<!--a id="ttw" href="https://twitter.com/JosePolLezcano" target="_blank">M</a-->
+				<button id="tpan" onclick="bajarteclado()">Ver<br>Pantalla</button>
+				<button id="tcal" onclick="calcular()" disabled>=</button>
+				<button id="t7" onclick="escribir('7',false)">7</button>
+				<button id="t8" onclick="escribir('8',false)">8</button>
+				<button id="t9" onclick="escribir('9',false)">9</button>
+				<button id="tmas" onclick="escribir('+',false)" disabled>+</button>
+				<button id="tmen" onclick="escribir('-',false)" disabled>-</button>
+				<button id="t4" onclick="escribir('4',false)">4</button>
+				<button id="t5" onclick="escribir('5',false)">5</button>
+				<button id="t6" onclick="escribir('6',false)">6</button>
+				<button id="tpor" onclick="escribir('x',false)" disabled>x</button>
+				<button id="tdiv" onclick="escribir('/',false)" disabled>/</button>
+				<button id="t1" onclick="escribir('1',false)">1</button>
+				<button id="t2" onclick="escribir('2',false)">2</button>
+				<button id="t3" onclick="escribir('3',false)">3</button>
+				<button id="tpri" onclick="escribir('primos',false)" disabled>|</button>
+				<button id="trai" onclick="escribir('raiz',false)" disabled>rc</button>
+				<button id="t0" onclick="escribir('0',false)">0</button>
+				<button id="tcom"  onclick="escribir(',',false)" disabled>,</button>
+				<button id="tc" onclick="escribir('c',false)">C</button>
+				<button id="tdel" onclick="escribir('del',false)">&#60;</button>
+			</div>
+			<div id="salida"></div>
+			<div id="divvolver">
+				<div id="volver" onclick="subirteclado()">J</div>
+				<div id="botexp" onclick="divideExpandida(true)">DIV EXPAND.</div>
+				<div id="botnor" onclick="divideExpandida(false)">DIV NORMAL</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+    background-size: 100%;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.reloj{
+    font-family: 'Share Tech Mono', monospace;
+    color: #08f4fc;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 20px rgb(9, 69, 219), 0 0 20px rgba(10,175, 230,0) ;
+}
+.tiempo{
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+.fecha{
+    letter-spacing: 0.1em;
+    font-size: 24px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #0a0927;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(215, 75, 230);
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: rgb(66, 50, 245);
+    
+}
